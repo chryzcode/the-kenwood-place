@@ -99,3 +99,11 @@
   background-color: white;
   border: 1px solid dimgray;
 }
+
+.contact-us-links > a {
+    text-decoration: none;
+    font-size: 30px;
+    color: dimgray;
+    margin: 0 10px;
+
+}
