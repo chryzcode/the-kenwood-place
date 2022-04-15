@@ -12,6 +12,12 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
+.kenwood-place-logo {
+    width: 120px;
+    position: absolute;
+    top: 0px;
+}
+
 .navbar-links {
   display: inline;
   list-style: none;
@@ -54,7 +60,7 @@
   transform-origin: bottom left;
 }
 
-.about-us {
+.home-sub-seg {
   text-align: center;
   margin: 20px 20px;
   padding: 30px 10%;
@@ -65,7 +71,7 @@
   color: dimgray;
 }
 
-.about-us > div {
+.home-sub-seg > div {
   padding: 20px 0;
   font-size: 18px;
 }
