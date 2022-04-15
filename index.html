@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav data-aos="fade-down" data-aos-duration="1500"  class="navbar">
       <span>
         <img class="kenwood-place-logo" src="./assets/images/the-kenwood-place-logo.png" alt="" />
       </span>
@@ -23,7 +24,7 @@
     </nav>
 
     <div class="home-content">
-      <div class="home-sub-seg">
+      <div data-aos="fade-left" data-aos-duration="1500"  class="home-sub-seg">
         <p class="sub-heading">About Us</p>
         <div>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eum blanditiis nemo reprehenderit,
@@ -33,7 +34,7 @@
         <a href="http://" target="_blank" rel="noopener noreferrer" class="btn-container">More</a>
       </div>
 
-      <div class="home-sub-seg">
+      <div data-aos="fade-right" data-aos-duration="1500"  class="home-sub-seg">
         <p class="sub-heading">Products</p>
         <div>
           At the Kenwood Place, we offer a wide range of household products to meet your needs varying from Kenwood,
@@ -44,7 +45,7 @@
         <a href="http://" target="_blank" rel="noopener noreferrer" class="btn-container">View</a>
       </div>
 
-      <div class="home-sub-seg">
+      <div data-aos="fade-up" data-aos-duration="1500"  class="home-sub-seg">
         <p class="sub-heading">Contact Us</p>
         <div>
           <iframe
@@ -73,5 +74,12 @@
         </div>
       </div>
     </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
