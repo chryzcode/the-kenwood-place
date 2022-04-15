@@ -11,16 +11,20 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <nav data-aos="fade-down" data-aos-duration="1500"  class="navbar">
+    <nav data-aos="fade-down" data-aos-duration="1500"  class="navbar" id="navbar">
       <span>
-        <img class="kenwood-place-logo" src="./assets/images/the-kenwood-place-logo.png" alt="" />
+        <img class="kenwood-place-logo" src="./assets/images/the-kenwood-place-logo.png" alt="" />      
       </span>
 
-      <ul class="navbar-links">
-        <li><a href="">About</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="">Contact</a></li>
+      
+
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="" id="a-navbar-link">About</a></li>
+        <li><a href="" id="a-navbar-link">Products</a></li>
+        <li><a href="" id="a-navbar-link">Contact</a></li>
       </ul>
+
+      <div id="toogle"></div>
     </nav>
 
     <div class="home-content">
@@ -80,6 +84,24 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      const navbar = document.getElementById("navbar");
+      const toogle = document.getElementById("toogle");
+      const navlink = document.getElementById("navbar-links");
+      const a_nav_link = document.getElementById("a-navbar-link");
+
+      document.onclick = function (e) {
+        if (e.target.id == "a-navbar-link") {
+          navlink.classList.remove("active");
+          toogle.classList.remove("active");
+        }
+      };
+
+      toogle.onclick = function () {
+        toogle.classList.toggle("active");
+        navlink.classList.toggle("active");
+      };
     </script>
   </body>
 </html>

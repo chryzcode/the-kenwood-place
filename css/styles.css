@@ -18,6 +18,10 @@
   background-color: #fff;
 }
 
+#toogle {
+  display: none;
+}
+
 .kenwood-place-logo {
   width: 120px;
   position: absolute;
@@ -124,4 +128,67 @@
   transition: all 0.5s ease-in-out;
   background-color: dimgray;
   color: white;
+}
+
+@media all and (max-width: 500px) {
+  #toogle {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    width: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+  }
+
+  #toogle::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 28px;
+    background-color: dimgray;
+    transform: translateY(-5px);
+    transition: 0.2s;
+  }
+
+  #toogle::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 28px;
+    background-color: dimgray;
+    transform: translateY(5px);
+    transition: 1s;
+  }
+
+  #toogle.active::before {
+    transform: translateY(0px) rotate(45deg);
+  }
+
+  #toogle.active::after {
+    transform: translateY(0px) rotate(-45deg);
+  }
+
+  #navbar-links.active {
+    transition: all 1.7s ease-in;
+    margin-top: 0 !important;
+    padding-top: 40px;
+  }
+
+  #navbar-links {
+    margin-top: -100%;
+    color: dimgray;
+    display: block;
+    width: 100%;
+  }
+
+  #navbar-links > li {
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+  }
 }
