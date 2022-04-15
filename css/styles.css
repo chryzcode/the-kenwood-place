@@ -107,6 +107,7 @@
 .contact-us-links {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact-us-links > span > a {
@@ -122,6 +123,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  
 }
 
 .contact-us-links > span > a:hover {
@@ -133,7 +135,6 @@
 @media all and (max-width: 500px) {
   #toogle {
     position: absolute;
-    /* top: 0; */
     right: 0;
     width: 60px;
     cursor: pointer;
@@ -169,6 +170,12 @@
 
   #toogle.active::after {
     transform: translateY(0px) rotate(-45deg);
+  }
+
+  .kenwood-place-logo {
+    width: 80px;
+    position: absolute;
+    top: 0px;
   }
 
   #navbar-links.active {
