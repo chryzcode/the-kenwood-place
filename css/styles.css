@@ -1,12 +1,86 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .navbar-links {
+  display: inline;
+  list-style: none;
+}
+
+.navbar-links > li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.navbar-links > li:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.navbar-links > li > a {
+  text-decoration: none;
+  color: dimgray;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar-links > li > a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform-origin: bottom right;
+  transition: transform 0.40s ease-out;
+}
+
+.navbar-links > li > a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.about-us {
+  text-align: center;
+  margin: 20px 20px;
+  padding: 30px 10%;
+}
+
+.sub-heading {
+  font-size: 27px;
+  color: dimgray;
+}
+
+.about-us > div {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.btn-container {
+  color: white;
+  background-color: dimgray;
+  text-decoration: none;
+  padding: 3px 12px;
+  font-size: 20px;
+}
+
+.btn-container:hover {
+  transition: all 0.5s ease-in-out;
+  color: dimgray;
+  background-color: white;
+  border: 1px solid dimgray;
 }
