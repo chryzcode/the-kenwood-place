@@ -10,12 +10,18 @@
   justify-content: space-between;
   padding: 30px 20px;
   border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
 }
 
 .kenwood-place-logo {
-    width: 120px;
-    position: absolute;
-    top: 0px;
+  width: 120px;
+  position: absolute;
+  top: 0px;
 }
 
 .navbar-links {
@@ -30,10 +36,9 @@
 }
 
 .navbar-links > li:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
-
 
 .navbar-links > li > a {
   text-decoration: none;
@@ -43,7 +48,7 @@
 }
 
 .navbar-links > li > a:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -52,12 +57,16 @@
   left: 0;
   background-color: red;
   transform-origin: bottom right;
-  transition: transform 0.40s ease-out;
+  transition: transform 0.4s ease-out;
 }
 
 .navbar-links > li > a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.home-content {
+  margin-top: 100px;
 }
 
 .home-sub-seg {
