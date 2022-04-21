@@ -70,13 +70,15 @@
 }
 
 .home-content {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .header-seg {
   display: flex;
   justify-content: space-around;
-  margin: 0 40px;
+  padding: 0 40px;
+  background-color: dimgrey;
+  color: #ffffff;
 }
 
 .header-seg > span > h2 {
@@ -84,10 +86,30 @@
   font-size: 30px;
 }
 
-.header-seg > span > span {
+.header-seg > span > div {
   display: inline-block;
-  margin-top: 30px;
   font-size: 20px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.header-seg > span > div > a {
+  display: flex;
+  background-color: #e5e5e5;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: dimgray;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.header-seg > span > div > a:hover {
+  color: white;
+  background-color: dimgray;
+  border: 1px solid white;
+  transition: all 0.5s ease-in-out;
 }
 
 
