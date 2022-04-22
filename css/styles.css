@@ -79,6 +79,8 @@
   padding: 20px 40px;
   background-color: dimgrey;
   color: #ffffff;
+  justify-content: right;
+  align-items: center;
 }
 
 .header-seg > span > h2 {
@@ -286,6 +288,7 @@
 
   .header-seg {
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
 
   .header-seg > span > div {
