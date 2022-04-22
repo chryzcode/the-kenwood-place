@@ -74,8 +74,8 @@
 }
 
 .header-seg {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   padding: 20px 40px;
   background-color: dimgrey;
   color: #ffffff;
@@ -116,16 +116,18 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .header-image-container {
   height: 230px;
   width: 230px;
   overflow: hidden;
+  display: block;
 }
 
 .header-image-container > span {
-   height: 230px;
+  height: 230px;
   display: block;
   position: relative;
   top: 0;
@@ -283,14 +285,14 @@
   }
 
   .header-seg {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .header-seg > span > div {
     width: 100%;
   }
 
-  .header-image-container  {
+  .header-image-container {
     display: block;
     text-align: center;
     margin: 0 auto;
