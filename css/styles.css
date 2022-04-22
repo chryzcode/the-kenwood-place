@@ -113,27 +113,32 @@
 }
 
 .header-image-container > span > img {
-  width: 230px;
-  height: 230px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .header-image-container {
   height: 230px;
+  width: 230px;
   overflow: hidden;
 }
 
 .header-image-container > span {
+   height: 230px;
+  display: block;
   position: relative;
   top: 0;
   animation: slide-2 3s steps(2) infinite;
+  background-color: dimgray;
 }
 
 @keyframes slide-2 {
-    100% {
-      top: -450px;
-      margin: 0 0 0 0;
-    }
+  100% {
+    top: -460px;
+    margin: 0 0 0 0;
   }
+}
 
 /* .header-image-container > span {
   display: inline-block;
