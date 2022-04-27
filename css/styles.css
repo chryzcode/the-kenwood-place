@@ -9,7 +9,6 @@
   display: flex;
   justify-content: space-between;
   padding: 30px 20px;
-  border-bottom: 1px solid #e5e5e5;
   position: fixed;
   top: 0;
   right: 0;
@@ -59,7 +58,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: red;
+  background-color: rgb(108, 104, 104);
   transform-origin: bottom right;
   transition: transform 0.4s ease-out;
 }
