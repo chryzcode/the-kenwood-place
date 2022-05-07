@@ -215,6 +215,45 @@
   color: white;
 }
 
+.about-us-container {
+  margin: 0 30px;
+}
+
+.about-us-container > span {
+  color: dimgray;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 200px !important;
+  flex-wrap: wrap;
+}
+
+.about-us-container > span > span:nth-child(1) {
+  width: 600px;
+} 
+
+.about-us-container > span > span:nth-child(2) {
+  width: 400px;
+}
+
+.about-us-container > span > span:nth-child(2) > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-us-container > span > span > p {
+  font-size: 30px;
+  color: black;
+  margin-top: 15px;
+}
+
+.middle-dot {
+  font-size: 30px !important;
+  color: rgba(83, 88, 56, 0.876) !important;
+}
+
 @media all and (max-width: 600px) {
   #toogle {
     position: absolute;
