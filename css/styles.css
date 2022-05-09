@@ -272,7 +272,7 @@
 }
 
 .abouts-us-contents > span > p {
-  font-size: 20px;
+  font-size: 30px;
   color: dimgray;
   font-weight: 600;
 }
@@ -280,6 +280,32 @@
 .abouts-us-contents > span > div {
   margin: 20px 0;
   font-size: 18px;
+}
+.our-values > div:nth-child(1) {
+  margin-top: 50px;
+  margin-right: auto;
+  width: 50%;
+}
+
+.our-values > div > p {
+  font-size: 30px;
+  color: dimgray;
+  font-weight: 600;
+}
+
+.our-values > div > div {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.values-grid  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 70px 30px;
+
+  grid-template-rows: auto;
+
 }
 
 @media all and (max-width: 600px) {
