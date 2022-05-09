@@ -216,7 +216,7 @@
 }
 
 .about-us-container {
-  margin: 0 30px;
+  margin: 0 70px;
 }
 
 .about-us-container > span {
@@ -254,7 +254,7 @@
   color: rgba(83, 88, 56, 0.876) !important;
 }
 .abouts-us-contents {
-  margin: 0 30px;
+  margin: 0 70px;
 }
 
 .abouts-us-contents > span:nth-child(odd) {
@@ -298,11 +298,11 @@
   font-size: 25px;
 }
 
-.values-grid  {
+.values-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  margin: 70px 30px;
+  margin: 70px 0px;
 }
 
 .values-grid > span:nth-child(odd) {
@@ -338,7 +338,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.values-grid > span > span{
+.values-grid > span > span {
   font-weight: 600;
   font-size: 19px;
   padding-left: 20px;
@@ -433,5 +433,13 @@
     display: block;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .abouts-us-contents > span:nth-child(odd) {
+    width: 100%;
+  }
+
+  .abouts-us-contents > span:nth-child(even) {
+    width: 100%;
   }
 }
