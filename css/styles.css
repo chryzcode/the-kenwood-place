@@ -216,7 +216,8 @@
 }
 
 .about-us-container {
-  margin: 0 70px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .about-us-container > span {
@@ -252,10 +253,6 @@
 .middle-dot {
   font-size: 30px !important;
   color: rgba(83, 88, 56, 0.876) !important;
-}
-
-.abouts-us-contents {
-  margin: 0 70px;
 }
 
 .abouts-us-contents > span:nth-child(odd) {
@@ -359,10 +356,6 @@
   .our-values > div:nth-child(1) {
     margin: 0;
     width: 100%;
-  }
-
-  .abouts-us-contents {
-    margin: 0 5%;
   }
 }
 
