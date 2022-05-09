@@ -231,7 +231,7 @@
 }
 
 .about-us-container > span > span:nth-child(1) {
-  width: 600px;
+  width: 400px;
 }
 
 .about-us-container > span > span:nth-child(2) {
@@ -245,7 +245,7 @@
 }
 
 .about-us-container > span > span > p {
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   margin-top: 15px;
 }
