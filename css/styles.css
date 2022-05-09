@@ -465,4 +465,9 @@
     width: 80%;
     margin: 0 auto;
   }
+
+  .our-values > div > div {
+    margin: 30px 0;
+    font-size: 20px;
+  }
 }
