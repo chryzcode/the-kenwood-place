@@ -349,6 +349,19 @@
   margin: 15px 0;
   font-weight: bolder;
 }
+
+@media all and (max-width: 900px) {
+  .values-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-values > div:nth-child(1) {
+    margin: 0;
+    width: 100%;
+}
+}
+
+
 @media all and (max-width: 600px) {
   #toogle {
     position: absolute;
