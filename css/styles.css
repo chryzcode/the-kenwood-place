@@ -360,7 +360,12 @@
 
   .about-us-container > span {
     display: block;
-    margin: 0 auto;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .about-us-container > span > span > p {
+    font-size: 22px;
   }
 
   .about-us-container > span > span:nth-child(2) {
@@ -465,8 +470,8 @@
 
   .values-grid {
     grid-template-columns: repeat(1, 1fr);
-    width: 80%;
-    margin: 0 auto;
+    /* width: 80%;
+    margin: 0 auto; */
   }
 
   .our-values > div > div {
