@@ -253,6 +253,7 @@
   font-size: 30px !important;
   color: rgba(83, 88, 56, 0.876) !important;
 }
+
 .abouts-us-contents {
   margin: 0 70px;
 }
@@ -351,16 +352,19 @@
 }
 
 @media all and (max-width: 900px) {
-  .values-grid{
+  .values-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .our-values > div:nth-child(1) {
     margin: 0;
     width: 100%;
-}
-}
+  }
 
+  .abouts-us-contents {
+    margin: 0 5%;
+  }
+}
 
 @media all and (max-width: 600px) {
   #toogle {
@@ -454,5 +458,11 @@
 
   .abouts-us-contents > span:nth-child(even) {
     width: 100%;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    margin: 0 auto;
   }
 }
