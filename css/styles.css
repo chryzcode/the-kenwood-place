@@ -303,15 +303,52 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   margin: 70px 30px;
-  grid-template-rows: auto;
 }
 
-.values-grid > span {
-  border: 1px solid dimgray;
-  padding: 30px;
+.values-grid > span:nth-child(odd) {
+  border: 1px solid rgba(105, 105, 105, 0.549);
+  padding: 50px 30px;
   border-radius: 8px;
+  color: dimgray;
 }
 
+.values-grid > span:nth-child(odd):hover {
+  padding: 50px 30px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: rgba(105, 105, 105, 0.549);
+  transition: all 0.5s ease-in-out;
+  border: 0;
+}
+
+.values-grid > span:nth-child(even) {
+  /* border: 1px solid dimgray; */
+  padding: 50px 30px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: rgba(105, 105, 105, 0.549);
+}
+
+.values-grid > span:nth-child(even):hover {
+  border: 1px solid rgba(105, 105, 105, 0.549);
+  padding: 50px 30px;
+  border-radius: 8px;
+  color: dimgray;
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.values-grid > span > span{
+  font-weight: 600;
+  font-size: 19px;
+  padding-left: 20px;
+}
+
+.values-grid > span > p {
+  font-size: 25px;
+  margin: 15px 0;
+  font-weight: bolder;
+}
 @media all and (max-width: 600px) {
   #toogle {
     position: absolute;
