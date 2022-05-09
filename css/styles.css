@@ -231,11 +231,11 @@
 }
 
 .about-us-container > span > span:nth-child(1) {
-  width: 400px;
+  width: 45%;
 }
 
 .about-us-container > span > span:nth-child(2) {
-  width: 400px;
+  width: 45%;
   display: block !important;
 }
 
@@ -356,6 +356,16 @@
   .our-values > div:nth-child(1) {
     margin: 0;
     width: 100%;
+  }
+
+  .about-us-container > span {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-us-container > span > span:nth-child(2) {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 
