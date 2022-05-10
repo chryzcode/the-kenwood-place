@@ -349,12 +349,12 @@
 .products-brand > p {
   font-size: 30px;
   color: dimgray;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .products-brand > span {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 22px;
   text-align: center;
 }
