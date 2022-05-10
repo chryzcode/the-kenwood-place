@@ -340,12 +340,6 @@
   transition: all 0.5s ease-in-out;
 }
 
-.values-grid > span > span {
-  font-weight: 600;
-  font-size: 19px;
-  padding-left: 20px;
-}
-
 .values-grid > span > p {
   font-size: 25px;
   margin: 15px 0;
