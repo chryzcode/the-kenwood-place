@@ -1,0 +1,39 @@
+.modal-content {
+  height: 450px;
+}
+
+nav {
+  padding: 0 20px !important;
+}
+
+.navbar-links {
+  margin-top: 20px;
+}
+
+.home-content {
+  margin: 50px auto;
+}
+
+.home-content > p {
+  text-align: center;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 20px 30px;
+}
+
+#products-card {
+  display: inline-block;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+#products-card img {
+  width: 100%;
+  object-fit: cover;
+}
