@@ -50,13 +50,13 @@ nav {
   font-size: 14px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .products-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .products-grid {
     grid-template-columns: 1fr;
   }
