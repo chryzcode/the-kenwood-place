@@ -10,6 +10,10 @@ nav {
   text-align: center;
 }
 
+.products-container {
+  margin: 40px 0;
+}
+
 .products-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
