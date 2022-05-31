@@ -43,6 +43,8 @@ nav {
 
 .modal-body > div {
   margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .modal-body > div > span:nth-child(1) {
@@ -52,6 +54,27 @@ nav {
 
 .modal-body > div > span:nth-child(2) {
   font-size: 14px;
+  text-align: center;
+}
+
+.modal-body > div:nth-child(5) {
+  display: block !important;
+}
+
+.modal-body > div:nth-child(5) > span:nth-child(1) {
+  display: block !important;
+  text-align: center;
+}
+
+.modal-body > div:nth-child(5) > span:nth-child(2) {
+  margin-top: 20px;
+  display: block;
+  text-align: left;
+}
+
+.modal-body > div:nth-child(5) > span:nth-child(2) > ul li {
+ width: max-content;
+ margin-right: auto !important;
 }
 
 @media screen and (max-width: 900px) {
