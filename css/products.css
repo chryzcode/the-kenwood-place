@@ -73,8 +73,9 @@ nav {
 }
 
 .modal-body > div:nth-last-child(1) > span:nth-child(2) > ul li {
- width: max-content;
+
  margin-right: auto !important;
+
 }
 
 @media screen and (max-width: 900px) {
