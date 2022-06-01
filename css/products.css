@@ -57,22 +57,22 @@ nav {
   text-align: center;
 }
 
-.modal-body > div:nth-child(5) {
+.modal-body > div:nth-last-child(1) {
   display: block !important;
 }
 
-.modal-body > div:nth-child(5) > span:nth-child(1) {
+.modal-body > div:nth-last-child(1) > span:nth-child(1) {
   display: block !important;
   text-align: center;
 }
 
-.modal-body > div:nth-child(5) > span:nth-child(2) {
+.modal-body > div:nth-last-child(1) > span:nth-child(2) {
   margin-top: 20px;
   display: block;
   text-align: left;
 }
 
-.modal-body > div:nth-child(5) > span:nth-child(2) > ul li {
+.modal-body > div:nth-last-child(1) > span:nth-child(2) > ul li {
  width: max-content;
  margin-right: auto !important;
 }
